@@ -1,0 +1,23 @@
+{
+  "name": "terminal-dashboard",
+  "version": "1.0.0",
+  "description": "Advanced Terminal Dashboard with System Monitoring",
+  "main": "dashboard.js",
+  "scripts": {
+    "start": "node dashboard.js",
+    "dev": "nodemon dashboard.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "systeminformation": "^5.21.0",
+    "simple-git": "^3.19.0",
+    "axios": "^1.4.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["terminal", "dashboard", "monitoring", "tui"],
+  "author": "Lexa",
+  "license": "MIT"
+}
