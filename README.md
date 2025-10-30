@@ -34,8 +34,8 @@ An advanced terminal-based dashboard for real-time system monitoring with a beau
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hyperion-terminal-dashboard.git
-cd hyperion-terminal-dashboard
+git clone https://github.com/lexathegoat/TerminalDashboard.git
+cd TerminalDashboard
 
 # Install dependencies
 npm install
@@ -47,8 +47,8 @@ npm start
 ### Manual Installation
 ```bash
 # Create project directory
-mkdir hyperion-terminal-dashboard
-cd hyperion-terminal-dashboard
+mkdir TerminalDashboard
+cd TerminalDashboard
 
 # Initialize npm project
 npm init -y
@@ -80,8 +80,8 @@ CMD ["node", "dashboard.js"]
 ```
 Build and run:
 ```bash
-docker build -t hyperion-dashboard .
-docker run -it hyperion-dashboard
+docker build -t TerminalDashboard .
+docker run -it TerminalDashboard
 ```
 
 ## Usage
